@@ -1,0 +1,45 @@
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  .logo {
+    img {
+      width: 85px;
+    }
+    text-align: center;
+    padding: 20px;
+  }
+
+  .menu-list {
+    a {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      cursor: pointer;
+      color: inherit;
+      text-decoration: none;
+    }
+    cursor: default;
+    color: #39ac73;
+    padding: 10px 0px 10px 25px;
+    p {
+      margin: 0px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .icon {
+      font-size: 18px;
+      display: flex;
+    }
+  }
+
+  .menu-list:hover {
+    background-color: #e6e6e6;
+  }
+
+  .active-page {
+    background-color: #e6e6e6;
+  }
+}

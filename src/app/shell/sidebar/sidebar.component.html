@@ -1,0 +1,46 @@
+<div class="sidebar-wrapper">
+    <div>
+      <div class="logo">
+        <img src="/assets/sidebar.png" alt="logo.png" />
+      </div>
+      <div>
+        <div class="menu-list" [routerLinkActive]="['active-page']">
+          <a [routerLink]="['/add-employee']">
+            <fa-icon [icon]="['fas', 'users']" class="icon"></fa-icon>
+            <p>User Management</p>
+          </a>
+        </div>
+  
+        <div class="menu-list" [routerLinkActive]="['active-page']">
+          <a [routerLink]="['/overview']">
+            <fa-icon [icon]="['fas', 'file-lines']" class="icon"></fa-icon>
+            <p>Document Management</p>
+          </a>
+        </div>
+  
+        <div class="menu-list">
+          <a>
+            <fa-icon [icon]="['fas', 'comments']" class="icon"></fa-icon>
+            <p>Ingestion Management</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div>
+      <div class="menu-list">
+        <a>
+          <fa-icon [icon]="['fas', 'comments']" class="icon"></fa-icon>
+          <p>Get Help</p>
+        </a>
+      </div>
+  
+      <div class="menu-list">
+        <a>
+          <fa-icon [icon]="['fas', 'arrow-right-from-bracket']" class="icon"></fa-icon>
+          <p>Sign Out</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  
